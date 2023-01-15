@@ -46,27 +46,41 @@ function App() {
           Column
         </div>
       </div>
-    </div>
-    <div className="container">
-      <div className="row">
-        <div className="col-sm" style={{border: "2px solid red"}}>
+      <div className="row row-cols-sm-2 row-cols-md-4">
+        <div className="col" style={{border: "2px solid blue"}}>
           Column
         </div>
-        <div className="col" style={{border: "2px solid red"}}>
+        <div className="col" style={{border: "2px solid blue"}}>
           Column
         </div>
-        <div className="col" style={{border: "2px solid red"}}>
+        <div className="col" style={{border: "2px solid blue"}}>
+          Column
+        </div>
+        <div className="col" style={{border: "2px solid blue"}}>
           Column
         </div>
       </div>
-    </div>
-    <div className="container">
-      <div className="row">
-        <div className="col-sm-auto" style={{border: "2px solid red"}}>
+      <div className="row ">
+        <div className="col col-sm-6 col-md-4" style={{border: "2px solid red"}}>
           Column<br/>Column<br/>Column
         </div>
-        <div className="col-lg-auto" style={{border: "2px solid red"}}>
+        <div className="col col-sm-6 col-md-4" style={{border: "2px solid red"}}>
           Column
+        </div>
+      </div>
+      <div className="row row-cols-sm-2 row-cols-md-4">
+        <div className="col" style={{border: "2px solid green"}}>
+          Column
+        </div>
+        <div className="col" style={{border: "2px solid green"}}>
+          <div className="row row-cols-sm-2 row-cols-md-4">
+            <div className="col" style={{border: "2px solid blue"}}>
+              Column
+            </div>
+            <div className="col" style={{border: "2px solid blue"}}>
+              Column
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -75,20 +89,3 @@ function App() {
 }
 
 export default App;
-
-      // <header className="App-header">
-      //   <img src={logo} className="App-logo" alt="logo" />
-      //   <p>
-      //     Edit <code>src/App.js</code> and save to reload.
-      //   </p>
-      //   <Button>This is a button</Button>
-      //   <Test />
-      //   <a
-      //     className="App-link"
-      //     href="https://reactjs.org"
-      //     target="_blank"
-      //     rel="noopener noreferrer"
-      //   >
-      //     Learn React
-      //   </a>
-      // </header>
