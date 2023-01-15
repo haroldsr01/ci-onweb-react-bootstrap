@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   border: 1px solid black;
-  height: 90vh;  
+  height: 2000px;  
 }
 
 code {
@@ -16,4 +16,8 @@ code {
 
 /* .col {
   border: 2px solid red;
+} */
+
+/* .navbar {
+  background-color: red;
 } */
