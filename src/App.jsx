@@ -1,11 +1,11 @@
 import './App.css';
 import React from 'react'
-import { TestNav } from './TestNav';
+import { NavBarCI } from './components/NavBarCI';
 
 function App() {
   return (
     <React.Fragment>
-      <TestNav />
+      <NavBarCI />
     </React.Fragment>
   );
 }
