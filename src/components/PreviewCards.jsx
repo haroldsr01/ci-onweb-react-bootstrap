@@ -59,10 +59,12 @@ export const PreviewCards = () => {
 
     return (
         <React.Fragment>
+            <div className="container-fluid bg-danger">
             <div className="container text-center card-group mt-3 bg-secondary">
                 <div className="row row-cols-4 d-flex justify-content-evenly gap-1">
                     {cardsElements}
                 </div>
+            </div>
             </div>
         </React.Fragment>
     )
