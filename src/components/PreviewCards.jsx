@@ -23,10 +23,28 @@ export const PreviewCards = () => {
             title: "Logistics",
             description: "Some quick example text to build on the card title and make up the bulk of the card's content."
         },
+        {
+            cardId: 3,
+            image: TicTacToe,
+            title: "Farm2Market",
+            description: "Some quick example text to build on the card title and make up the bulk of the card's content."
+        },
+        {
+            cardId: 4,
+            image: Inventory,
+            title: "JustINTime",
+            description: "Some quick example text to build on the card title and make up the bulk of the card's content."
+        },
+        {
+            cardId: 5,
+            image: Logistics,
+            title: "Notes",
+            description: "Some quick example text to build on the card title and make up the bulk of the card's content."
+        },
     ]
 
     const cardsElements = cardsData.map(card => (        
-        <div key={card.cardId} className="card border-primary" style={{width: "18rem", }}>
+        <div key={card.cardId} className="col card border-primary" style={{width: "18rem", }}>
             <img src={card.image} className="card-img-top img-thumbnail" alt="..." style={{width: "100%", height: "20vw", objectFit: "cover"}}/>
             <div className="card-body">
                 <h5 className="card-title">{card.title}</h5>
@@ -41,8 +59,10 @@ export const PreviewCards = () => {
 
     return (
         <React.Fragment>
-            <div className="container-fluid card-group gap-5 mt-3 bg-secondary p-5">
-                {cardsElements}
+            <div className="container text-center card-group mt-3 bg-secondary">
+                <div className="row row-cols-4 d-flex justify-content-evenly gap-1">
+                    {cardsElements}
+                </div>
             </div>
         </React.Fragment>
     )
