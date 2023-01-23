@@ -1,7 +1,7 @@
 import React from 'react'
 import BootstrapLogo from '../img/c2i logo.png'
 
-export const NavBarCI = () => {
+export const NavBar = () => {
     return (
         <React.Fragment>
             <nav className="navbar fixed-top navbar-expand-sm navbar-dark bg-primary">
@@ -18,17 +18,17 @@ export const NavBarCI = () => {
                             <a href="/" className="nav-link active">Home</a>
                         </li>
                         <li className="nav-item dropdown">
-                            <a href="/" className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Features
+                            <a href="/" className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Browse Projects
                             </a>
                             <ul className="dropdown-menu" aria-labelledby='navbarDropdown' style={{ margin: 0 }}>
                             <li>
-                                <a href="/" className="dropdown-item">Live Projects</a>
+                                <a href="/" className="dropdown-item">By Category</a>
                             </li>
                             <li>
-                                <a href="/" className="dropdown-item">Learning Objectives</a>
+                                <a href="/" className="dropdown-item">By Popularity</a>
                             </li>
                             <li>
-                                <a href="/" className="dropdown-item">End Goal</a>
+                                <a href="/" className="dropdown-item">By Status</a>
                             </li>
                             </ul>
                         </li>
@@ -37,10 +37,10 @@ export const NavBarCI = () => {
                         </li>
                         </ul>
                     </div>
-                    <form action="" className="d-flex">
+                    {/* <form action="" className="d-flex">
                         <input type="text" className="form-control me-2" />
                         <button type="submit" className="btn btn-primary">Search</button>
-                    </form>
+                    </form> */}
                 </div>
             </nav>
         </React.Fragment>

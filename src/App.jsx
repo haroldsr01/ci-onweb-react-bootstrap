@@ -1,13 +1,15 @@
 import './App.css';
 import React from 'react'
-import { NavBarCI } from './components/NavBarCI';
-import { Header } from './components/Header';
+import { NavBar } from './components/NavBar';
+import { Hero } from './components/Hero';
+import { PreviewCards } from './components/PreviewCards';
 
 function App() {
   return (
     <React.Fragment>
-      <NavBarCI />
-      <Header />
+      <NavBar />
+      <Hero />
+      <PreviewCards />
     </React.Fragment>
   );
 }
